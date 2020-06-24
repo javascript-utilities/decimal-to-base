@@ -13,7 +13,7 @@
         const radix = document.getElementById('radix').value;
         const output_element = document.getElementById('output');
 
-        let output_value = '';
+        let output_value = 'NaN';
         try {
           output_value = decimalToBase(decimal, radix)
         } catch (e) {
