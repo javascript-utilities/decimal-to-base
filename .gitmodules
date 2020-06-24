@@ -1,0 +1,4 @@
+[submodule "decimal-to-base"]
+	path = assets/js/modules/decimal-to-base
+	url = https://github.com/javascript-utilities/decimal-to-base.git
+	branch = main
