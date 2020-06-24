@@ -6,7 +6,7 @@
 
 Converts decimal to another base, eg. hex, octal, or binary
 
-## [![Byte size of Decimal To Base][badge__main__decimal_to_base__source_code]][decimal_to_base__main__source_code] [![Open Issues][badge__issues__decimal_to_base]][issues__decimal_to_base] [![Open Pull Requests][badge__pull_requests__decimal_to_base]][pull_requests__decimal_to_base] [![Latest commits][badge__commits__decimal_to_base__main]][commits__decimal_to_base__main]
+## [![Byte size of Decimal To Base][badge__main__decimal_to_base__source_code]][decimal_to_base__main__source_code] [![Open Issues][badge__issues__decimal_to_base]][issues__decimal_to_base] [![Open Pull Requests][badge__pull_requests__decimal_to_base]][pull_requests__decimal_to_base] [![Latest commits][badge__commits__decimal_to_base__main]][commits__decimal_to_base__main] [![decimal-to-base Demos][badge__gh_pages__decimal_to_base]][gh_pages__decimal_to_base]
 
 
 
