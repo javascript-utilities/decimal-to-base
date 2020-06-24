@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tests Decimal to Base</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script type="text/javascript" src="assets/js/modules/decimal-to-base/decimal-to-base.js"></script>
+    <script type="text/javascript">
+      function updateOutput(_event) {
+        const decimal = document.getElementById('decimal').value;
+        const radix = document.getElementById('radix').value;
+        const output_element = document.getElementById('output');
+
+        let output_value = '';
+        try {
+          output_value = decimalToBase(decimal, radix)
+        } catch (e) {
+          if (e instanceof SyntaxError) {
+            console.error(e);
+          } else if (e instanceof RangeError) {
+            console.error(e);
+          } else {
+            throw e;
+          }
+        }
+
+        output_element.value = output_value;
+      }
+
+      window.addEventListener('load', (_event) => {
+        document.getElementById('decimal').addEventListener('input', updateOutput);
+        document.getElementById('radix').addEventListener('input', updateOutput);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <span class="label">Radix: </span>
+        <input class="text_input" type="text" id="radix" value="16">
+      </div>
+      <br>
+
+      <div class="row">
+        <span class="label">Input: </span>
+        <input class="text_input" type="text" id="decimal">
+      </div>
+      <br>
+
+      <div class="row">
+        <span class="label">Output: </span>
+        <input class="text_input" id="output" type="text" readonly>
+      </div>
+    </div>
+  </body>
+</html>

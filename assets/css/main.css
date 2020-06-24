@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 50%;
+  position: relative;
+}
+
+.row {
+  padding-top: 1rem;
+}
+
+.row::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-color: lightgrey;
+  height: 0.2rem;
+  width: 100%;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 19%;
+  padding-right: 1%;
+}
+
+.text_input {
+  float: right;
+  width: 79%;
+}
