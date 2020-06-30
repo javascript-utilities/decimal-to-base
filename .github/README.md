@@ -459,6 +459,8 @@ ___
 
 - [ECMA International -- 11.8.3 Numeric Literals](https://www.ecma-international.org/ecma-262/6.0/#sec-literals-numeric-literals)
 
+- [CodeReview StackExchange -- Suggestions from radarbob](https://codereview.stackexchange.com/questions/244488/javascript-convert-decimal-to-another-base?noredirect=1#comment480529_244488)
+
 
 ___
 
