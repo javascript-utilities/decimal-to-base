@@ -33,7 +33,7 @@ const decimalToBase = (
   } else if (isNaN(radix)) {
     throw new SyntaxError('radix is Not a Number');
   } else if (radix > max_base) {
-    throw new RangeError(`radix must be less than max base -> ${max_base}`);
+    throw new RangeError(`radix must be less than or equal to max base -> ${max_base}`);
   } else if (radix < 2) {
     throw new RangeError(`radix must be greater than 2`);
   }
