@@ -17,7 +17,7 @@
  * //> "0x21C"
  */
 const decimalToBase = (decimal, radix = 16, verbose = false, symbols_list = [...'0123456789abcdefghijklmnopqrstuvwxyz']) => {
-    decimal = Number(decimal);
+    decimal = Math.floor(Number(decimal));
     radix = Number(radix);
     const max_base = symbols_list.length;
     if (isNaN(decimal)) {

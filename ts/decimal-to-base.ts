@@ -24,7 +24,7 @@ const decimalToBase = (
   verbose: boolean = false,
   symbols_list: string[] = [...'0123456789abcdefghijklmnopqrstuvwxyz']
 ): string => {
-  decimal = Number(decimal);
+  decimal = Math.floor(Number(decimal));
   radix = Number(radix);
   const max_base: number = symbols_list.length;
 
