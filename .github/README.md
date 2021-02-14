@@ -122,7 +122,7 @@ If utilizing NPM to track project dependencies it is possible to install this pr
 
 
 ```Bash
-npm install javascript-Utilizes/decimal-to-base
+npm install javascript-utilities/decimal-to-base
 ```
 
 
