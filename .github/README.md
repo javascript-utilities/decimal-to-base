@@ -27,7 +27,7 @@ Converts decimal to another base, eg. hex, octal, or binary
     - [&#x1F578; Edit Your HTML][heading__edit_your_html]
     - [:floppy_disk: Commit and Push][heading__commit_and_push]
 
-- [:scroll: Decimal to Base Reference][heading__api_reference]
+- [:scroll: Decimal to Base Reference][heading__decimal_to_base_reference]
 
 - [&#x1F5D2; Notes][heading__notes]
 
@@ -258,7 +258,7 @@ Add `script` tag that sources the `decimal-to-base.js` script, eg...
 #### Edit Your HTML
 [heading__edit_your_html]:
   #edit-your-html
-  "&#x1F578; Source and utilize decimalToBase features"
+  "&#x1F578; Source and utilize `decimalToBase` features"
 
 
 **`index.html` (example)**
@@ -353,12 +353,12 @@ ___
 
 
 ## Decimal to Base Reference
-[heading__api_reference]:
+[heading__decimal_to_base_reference]:
   #decimal-to-base-reference
-  "&#x1F4DC; The incantations that decimalToBase understands"
+  "&#x1F4DC; The incantations that `decimalToBase` understands"
 
 
-The incantations that decimalToBase understands
+The incantations that `decimalToBase` understands
 
 
 **Parameters**
@@ -391,7 +391,7 @@ ___
   "&#x1F5D2; Additional things to keep in mind when developing"
 
 
-This repository may not be feature complete and/or fully functional, Pull Requests that add features or fix bugs are certainly welcomed. For example this project converts **integers** only at this time, ie. floating point numbers are **not** supported.
+This repository may not be feature complete and/or fully functional, Pull Requests that add features or fix bugs are certainly welcomed. For example this project converts **integers** only at this time, I.E. floating point numbers are **not** supported.
 
 
 - [Fork][decimal_to_base__fork_it] this repository to an account that you have write permissions for.
@@ -473,7 +473,7 @@ ___
 
 ```
 Documentation for converting decimal to another base, eg. hex, octal, or binary
-Copyright (C) 2020 S0AndS0
+Copyright (C) 2024 S0AndS0
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published

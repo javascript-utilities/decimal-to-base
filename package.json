@@ -1,6 +1,6 @@
 {
   "name": "decimal-to-base",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Converts decimal to provided base",
   "main": "decimal-to-base.js",
   "scripts": {
